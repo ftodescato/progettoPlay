@@ -3,6 +3,9 @@ install: true
 deploy:
 skip_cleanup: true
 
+language: java
+java:
+  - 1.8.0_74
 language: scala
 scala:
   - 2.11.7
